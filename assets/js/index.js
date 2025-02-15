@@ -1,13 +1,12 @@
 let resta = document.querySelector("#restar");
 let suma = document.getElementById("sumar");
-
-let cantidad = 0;
+let cantidad = 0
 let cantidaddisplay = document.querySelector("span.cantidad");
 cantidaddisplay.innerText = cantidad;
 
 precio = 400000;
 
-let total = document.querySelector("#total");
+// let total = document.querySelector("#total");
 
 precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
@@ -25,4 +24,6 @@ const restar = function () {
     total.innerText = cantidad * precio;
     actualizarValores();
   }
-};
+}
+
+
