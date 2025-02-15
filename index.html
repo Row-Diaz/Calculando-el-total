@@ -19,9 +19,9 @@
         
               <p>Cantidad:
                 <span class="cantidad">0</span>
-                <button 
+                <button id="sumar" onclick="incrementar()" sumar="true"
                 >+</button>
-                <button
+                <button id="restar" onclick="restar()" restar="true"
                 >-</button>
               </p>
             </div>
@@ -30,10 +30,10 @@
     </section>
 
     <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total"></span> </p>
+        <p>Total a pagar: $<span id="total"></span> </p>
     </div>
 
-    <script src="index.js">
+    <script src="./assets/js/index.js">
       
 
     </script>
